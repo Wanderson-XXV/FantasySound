@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+@theme {
+  --h1: bold max(36px, 4vw)/max(48px, 5vw);
+  --color-primary: #6562df;
+  --bg-light-mode: #eee;
+  --bg-dark-mode: #404040;
+  --font-primary: 'Libre_Baskerville', serif;
+}
+
+body {
+  background-color: var(--bg-light-mode);
+}
+
+
+/* FONTS */
+@font-face {
+  font-family: 'Libre_Baskerville';
+  src: url('./fonts/Libre_Baskerville-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre_Baskerville';
+  src: url('./fonts/Libre_Baskerville-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Libre_Baskerville';
+  src: url('./fonts/Libre_Baskervill-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
